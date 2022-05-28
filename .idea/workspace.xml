@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="314b4b11-36db-4003-8736-e8a2968caa56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skm/HelloWorld.java" afterDir="false" />
+    <list default="true" id="314b4b11-36db-4003-8736-e8a2968caa56" name="Changes" comment="Created Java-Mastery Project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skm/AList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skm/HMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skm/StringOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +39,37 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AList">
+    <configuration name="AList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skm.AList" />
+      <module name="Java-Mastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skm.HMaps" />
+      <module name="Java-Mastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.skm.HelloWorld" />
       <module name="Java-Mastery" />
@@ -58,8 +83,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skm.StringOps" />
+      <module name="Java-Mastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AList" />
+        <item itemvalue="Application.StringOps" />
+        <item itemvalue="Application.HMaps" />
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
@@ -73,6 +114,14 @@
       <option name="presentableId" value="Default" />
       <updated>1653723779039</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created Java-Mastery Project">
+      <created>1653723945531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653723945531</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Java-Mastery Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Java-Mastery Project" />
   </component>
 </project>
