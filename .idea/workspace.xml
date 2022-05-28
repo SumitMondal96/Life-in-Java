@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="314b4b11-36db-4003-8736-e8a2968caa56" name="Changes" comment="Created Java-Mastery Project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skm/AList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skm/HMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skm/StringOps.java" afterDir="false" />
+    <list default="true" id="314b4b11-36db-4003-8736-e8a2968caa56" name="Changes" comment="Added AList, HMaps &amp; StringOps">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skm/Barclays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skm/Finance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skm/MThread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skm/MThread2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,9 +45,22 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AList">
+  <component name="RunManager" selected="Application.Barclays">
     <configuration name="AList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.skm.AList" />
+      <module name="Java-Mastery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Barclays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skm.Barclays" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.skm.HelloWorld" />
+    <configuration name="MThread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skm.MThread2" />
       <module name="Java-Mastery" />
       <extension name="coverage">
         <pattern>
@@ -98,10 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Barclays" />
+        <item itemvalue="Application.MThread2" />
         <item itemvalue="Application.AList" />
         <item itemvalue="Application.StringOps" />
         <item itemvalue="Application.HMaps" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653723945531</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added AList, HMaps &amp; StringOps">
+      <created>1653724249269</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653724249269</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Java-Mastery Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Java-Mastery Project" />
+    <MESSAGE value="Added AList, HMaps &amp; StringOps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AList, HMaps &amp; StringOps" />
   </component>
 </project>
